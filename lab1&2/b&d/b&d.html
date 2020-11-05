@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label class="mand" for="email">E-mail:</label>
+        <br>
+        <input type="text" id="email" name="email" required>
+        <br>
+        <label class="mand" for="pass">Password:</label>
+        <br>
+        <input type="password" id="pass" name="pass" required>
+        <br>
+        <br>
+        <span>What languages do you know?</span>
+        <br>
+        <input type="checkbox" id="lang1" name="lang1" value="Java">
+        <label for="lang1">Java</label>
+        <br>
+        <input type="checkbox" id="lang2" name="lang2" value="JavaScript">
+        <label for="lang2">JavaScript</label>
+        <br>
+        <input type="checkbox" id="lang3" name="lang3" value="C++">
+        <label for="lang3">C++</label>
+        <br>
+        <br>
+        <span class="mand">What is your gender?</span>
+        <br>
+        <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+  <br>
+  <br>
+  <label class="mand" for="nat">Choose your nationality:</label>
+<select name="nat" id="nat">
+  <option value="ukr">Ukrainian</option>
+  <option value="pol">Polish</option>
+  <option value="rus">Russian</option>
+  <option value="bel">Belorussian</option>
+</select>
+<br>
+<br>
+<label for="extra">Extra info about yourself:</label>
+<textarea id="extra" name="extra" rows="4" cols="50">
+</textarea>
+<br>
+<br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+      </form>
+</body>
+</html>

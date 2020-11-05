@@ -1,0 +1,14 @@
+p{
+font-size: 20px;
+font-style: italic;
+}
+header{
+    font-size: 35px;
+    font-style: bold;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: circle;
+}
