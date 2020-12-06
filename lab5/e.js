@@ -51,7 +51,7 @@ let createGroup = (student) => {
 };
 
 let person = new Student("Maksym", "Gulko", 18526, [4.5, 3, 3.5, 5, 4.5]);
-person.courses = ["PPJ", "MAD", "ASD", "TIN", "SBD"];
+person.courses = ["UTP", "ASD", "PPJ", "MAD", "SBD"];
 person.setFirstName = "Ivan";
 console.log(person.print());
 console.log(createGroup(person));
