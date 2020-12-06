@@ -45,7 +45,7 @@ let createGroup = (student) => {
     return courses;
 };
 
-Student.prototype.courses = ["PPJ", "MAD", "ASD", "TIN", "SBD"];
+Student.prototype.courses = ["UTP", "ASD", "PPJ", "MAD", "SBD"];
 let person = new Student("Maksym", "Gulko", 18526, [4.5, 3, 3.5, 5, 4.5]);
 console.log(person.print());
 console.log(createGroup(person));
